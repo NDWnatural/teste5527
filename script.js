@@ -1,10 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const resultsContainer = document.getElementById('video-container');
-    const searchInput = document.getElementById('search-input');
-    const searchButton = document.getElementById('search-button');
-
-    searchButton.addEventListener('click', () => {
-        const searchQuery = searchInput.value;
-        // Implemente a lógica para fazer a pesquisa na API do YouTube e exibir os resultados na div 'video-container'
-    });
-});
+var nome = prompt ('qual seu nome?')
+var data = new date()
+var hora = data.getHours()
+var min = data.getMinutes()
+if (hora >0 && hora < 12){
+    alert('bom dia, ${nome}! agora são ${hora} horas e ${min} minutos...')
+} else if (hora <18){
+    alert('boa tarde, ${nome}! agora são ${hora} horas e ${min} minutos')
+}
