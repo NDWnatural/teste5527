@@ -1,5 +1,5 @@
 var nome = prompt ('qual seu nome?')
-var data = new date()
+var data = new Date()
 var hora = data.getHours()
 var min = data.getMinutes()
 if (hora >0 && hora < 12){
